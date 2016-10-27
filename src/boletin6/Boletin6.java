@@ -26,8 +26,10 @@ public class Boletin6 {
         c1.transferencia(c2, 2000);
         c1.transferencia(c2,1500);
         c2.visualizar();
-        c2.ingreso(197.51);
+        System.out.println(c2.ingreso(197.51));
+        System.out.println(c2.ingreso(-197.51));
         c2.visualizar();
+        
     }
     
 }
